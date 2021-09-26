@@ -70,7 +70,7 @@ body{
     font-family:Red Hat Display ;
   }
   .paymentbtn:hover{
-    opacity: 0.6;
+/*     opacity: 0.6; */
     background-color: hsl(224, 23%, 55%);
   }
   .cancelbtn{
