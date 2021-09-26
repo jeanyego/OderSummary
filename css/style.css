@@ -1,0 +1,95 @@
+
+body{
+  background-color: hsl(225, 100%, 94%);
+}
+.container{
+    width: 450px;
+    padding-right: 15px;
+    padding-left: 15px;
+    /* margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px; */
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    height: auto;
+  }
+  .card{
+     text-align: center;
+     background-color: white; 
+     border-radius: 20px;
+     display: flexbox;
+  }
+  h2{
+    text-align: center;
+  }
+  .song{
+    font-family:Red Hat Display ; 
+    font-weight: 500 ,700,900; 
+    text-align: center; 
+    font-size: 16px; 
+    margin-left: 70px; 
+    margin-right: 70px;
+  }
+  section{
+    display: flex; 
+    margin-left: 50px;
+    margin-right: 50px; 
+    background-color: rgb(235, 229, 229);
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 10px;
+  }
+  .icon{
+    width: 70px;height: 
+    70px; margin-right: 20px; 
+    margin-top: 10px;
+  }
+  .change{
+    margin-left: 70px; 
+    justify-content: space-between; 
+    align-items: center; 
+    display: inline-flex;
+    
+  }
+  .changetext{
+    color:hsl(245, 75%, 52%); 
+    text-decoration: none; 
+  }
+  .changetext:hover{
+    /* opacity: 0.6; */
+    color: hsl(224, 23%, 55%);
+  }
+  .paymentbtn{
+    background-color:hsl(245, 75%, 52%) ;
+    color: white;
+    width: 400px; 
+    height: 50px; 
+    border-radius:5px;
+    border-color: transparent; 
+    font-family:Red Hat Display ;
+  }
+  .paymentbtn:hover{
+    opacity: 0.6;
+    background-color: hsl(224, 23%, 55%);
+  }
+  .cancelbtn{
+    background-color:white ; 
+    color:hsl(224, 23%, 55%); 
+    width: 400px; 
+    height: 50px; 
+    border: none;
+    font-family:Red Hat Display ;
+    text-decoration: none;
+  }
+  .cancelbtn:hover{
+    /* opacity: 0.6; */
+    color:hsl(223, 47%, 23%);
+  }
+  .attribution { 
+    font-size: 11px; 
+    text-align: center; 
+  }
+  .attribution a { 
+    color: hsl(228, 45%, 44%); 
+  }
